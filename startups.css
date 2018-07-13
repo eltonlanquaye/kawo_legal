@@ -1,0 +1,55 @@
+.wrapper {
+  background-color: #eee;
+  height: 1250px;
+  margin: 0 0; }
+  .wrapper .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+    .wrapper .container-fluid .navbar {
+      padding-left: 2rem !important;
+      padding-right: 2rem !important; }
+  .wrapper a.navbar-brand {
+    width: 25% !important; }
+    .wrapper a.navbar-brand:hover, .wrapper a.navbar-brand:focus {
+      outline: 3px solid brown; }
+  .wrapper .navbar-brand img {
+    width: 100%; }
+  .wrapper .bg-light {
+    background-color: #3b0c0c !important; }
+  .wrapper .navbar-light .navbar-toggler {
+    border: 4px solid brown !important; }
+  .wrapper .links-Text li a {
+    color: brown !important; }
+  .wrapper .links-Text .nav-link:hover, .wrapper .links-Text .nav-link:focus {
+    outline: 3px solid brown; }
+  .wrapper .navbar-expand-lg .navbar-collapse {
+    font-size: 1.5rem !important; }
+  .wrapper .big-search {
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+  .wrapper .content .container ul li img {
+    width: 23%; }
+  .wrapper .content .container ul li div div {
+    padding-bottom: 5px; }
+  .wrapper .content .container ul li div button {
+    display: block; }
+
+.footer {
+  background-color: #3b0c0c;
+  color: #fff; }
+  .footer .container {
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important; }
+    .footer .container ul {
+      list-style: none; }
+      .footer .container ul li {
+        display: inline;
+        padding: 1rem; }
+
+@media screen and (max-width: 525px) {
+  .footer .container {
+    font-size: .9em; } }
+
+/*# sourceMappingURL=startups.css.map */
