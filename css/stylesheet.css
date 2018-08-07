@@ -1,13 +1,11 @@
 .wrapper {
+  background-image: url(/media/picture.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-color: #eee;
-  height: 950px;
+  height: 1000px;
   margin: 0 0; }
-  .wrapper .container-fluid {
-    padding-left: 0 !important;
-    padding-right: 0 !important; }
-    .wrapper .container-fluid .navbar {
-      padding-left: 2rem !important;
-      padding-right: 2rem !important; }
   .wrapper a.navbar-brand {
     width: 25% !important; }
     .wrapper a.navbar-brand:hover, .wrapper a.navbar-brand:focus {
@@ -15,7 +13,7 @@
   .wrapper .navbar-brand img {
     width: 100%; }
   .wrapper .bg-light {
-    background-color: #3b0c0c !important; }
+    background-color: inherit !important; }
   .wrapper .navbar-light .navbar-toggler {
     border: 4px solid brown !important; }
   .wrapper .links-Text li a {
@@ -24,12 +22,11 @@
     outline: 3px solid brown; }
   .wrapper .navbar-expand-lg .navbar-collapse {
     font-size: 1.5rem !important; }
-  .wrapper .big-search {
-    padding-top: 2rem;
-    padding-bottom: 2rem; }
-  .wrapper .content .container form {
-    padding-top: 2.5rem !important;
-    padding-bottom: 2.5rem !important; }
+  .wrapper .content .container {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    color: #fff; }
 
 .footer {
   background-color: #3b0c0c;
@@ -48,5 +45,14 @@
 @media screen and (max-width: 525px) {
   .footer .container {
     font-size: .9em; } }
+@media screen and (max-width: 434px) {
+  .footer .container {
+    font-size: .7em; } }
+@media screen and (max-width: 378px) {
+  .footer .container {
+    font-size: .6em; } }
+@media screen and (max-width: 360px) {
+  .footer .container {
+    font-size: .5em; } }
 
-/*# sourceMappingURL=register.css.map */
+/*# sourceMappingURL=stylesheet.css.map */
