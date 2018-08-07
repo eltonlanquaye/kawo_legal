@@ -11,11 +11,33 @@ nav .active a {
   background: none !important; }
 
 .header .white-text {
-  font-size: 3rem;
+  font-size: 3.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem; }
+.header .settings {
+  font-size: 2.5rem !important; }
 .header .d-link {
   margin-top: 3rem; }
+
+.main {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem; }
+  .main p {
+    font-size: 1rem;
+    padding-left: 1rem; }
+
+.main_2 ul {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  .main_2 ul li span {
+    font-size: 2rem; }
+.main_2 .row .col {
+  padding: 0 !important; }
 
 /* .....................
 Media Queries
