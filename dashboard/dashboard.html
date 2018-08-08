@@ -4,6 +4,8 @@
 <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Import Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> -->
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"
         media="screen,projection" />
@@ -14,144 +16,188 @@
 </head>
 
 <body>
-    <!-- Nav -->
-    <nav>
-        <div class="nav-wrapper  brown darken-4">
+
+    <main class="m">
+
+        <!-- Nav -->
+        <nav class=" brown darken-4 ">
+            <div class="nav-wrapper brown darken-4">
+                <div class="container">
+                    <a href="#" class="brand-logo">
+                        <img src="/media/kawo-legal-logo.png" alt="" class="responsive-img">
+                    </a>
+                    <a href="" class="sidenav-trigger right" data-target="mobile-links">
+                        <i class="material-icons">
+                            menu
+                        </i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="active">
+                            <a href="#">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#">Add Startup</a>
+                        </li>
+                        <li>
+                            <a href="#">Startup Detail</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Welcome, Admin</a>
+                        </li>
+                        <li>
+                            <a href="#">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <ul class="sidenav" id="mobile-links">
+            <li>
+                <a href="sass.html">Dashboard</a>
+            </li>
+            <li>
+                <a href="badges.html">Add Startup</a>
+            </li>
+            <li>
+                <a href="collapsible.html">Startup Detail</a>
+            </li>
+            <li>
+                <a href="collapsible.html">Welcome, Admin</a>
+            </li>
+            <li>
+                <a href="collapsible.html">Login</a>
+            </li>
+        </ul>
+        <!-- /Nav -->
+    
+        <!-- header -->
+        <div class="grey darken-3 header ">
             <div class="container">
-                <a href="#" class="brand-logo">
-                    <img src="/media/kawo-legal-logo.png" alt="" class="responsive-img">
-                </a>
-                <a href="" class="sidenav-trigger" data-target="mobile-links">
-                    <i class="material-icons">
-                        menu
-                    </i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li class="active">
-                        <a href="#">Dashboard</a>
+                <i class="material-icons white-text settings">settings</i>
+                <span class="white-text span-480">Dashboard</span>
+                <a href="#!" class="waves-effect waves-light white black-text btn-small right hide-on-med-and-down dropdown-trigger d-link"
+                    data-target="dropdown2">
+                    <i class="material-icons black-text right">arrow_drop_down </i>Add Startups</a>
+                <ul id="dropdown2" class="dropdown-content">
+                    <li>
+                        <a href="#!" class="black-text">one
+                            <span class="badge black-text">1</span>
+                        </a>
                     </li>
                     <li>
-                        <a href="#">Add Startup</a>
+                        <a href="#!" class="black-text">two
+                            <span class="new badge red black-text">1</span>
+                        </a>
                     </li>
                     <li>
-                        <a href="#">Startup Detail</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">Welcome, Admin</a>
-                    </li>
-                    <li>
-                        <a href="#">Login</a>
+                        <a href="#!" class="black-text">three</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
-
-    <ul class="sidenav" id="mobile-links">
-        <li>
-            <a href="sass.html">Dashboard</a>
-        </li>
-        <li>
-            <a href="badges.html">Add Startup</a>
-        </li>
-        <li>
-            <a href="collapsible.html">Startup Detail</a>
-        </li>
-        <li>
-            <a href="collapsible.html">Welcome, Admin</a>
-        </li>
-        <li>
-            <a href="collapsible.html">Login</a>
-        </li>
-    </ul>
-    <!-- /Nav -->
-
-    <!-- header -->
-    <div class="grey darken-3 header">
-        <div class="container">
-            <i class="material-icons white-text settings">settings</i>
-            <span class="white-text">Dashboard</span>
-            <a href="#!" class="waves-effect waves-light white black-text btn-small right hide-on-med-and-down dropdown-trigger d-link"
-                data-target="dropdown2">
-                <i class="material-icons black-text right">arrow_drop_down </i>Add Startups</a>
-            <ul id="dropdown2" class="dropdown-content">
-                <li>
-                    <a href="#!">one
-                        <span class="badge">1</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#!">two
-                        <span class="new badge">1</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#!">three</a>
-                </li>
-            </ul>
+        <!-- /header -->
+    
+    
+    
+        <!-- main -->
+    
+    
+        <div class="valign-wrapper container main grey lighten-1 ">
+            <p class="  grey-text text-darken-2">Dashboard</p>
         </div>
-    </div>
-    <!-- /header -->
-
-
-
-    <!-- main -->
-
-
-    <div class="valign-wrapper container main grey lighten-1">
-        <p class="  grey-text text-darken-2">Dashboard</p>
-    </div>
-
-    <div class="container main_2">
-        <div class="row">
-            <div class="col s12 l3">
-                <ul class="collection with-header">
-                    <li class="collection-header red">
-                        <i class="material-icons">settings</i>
-                        <span class="">Dashboard</span>
-                    </li>
-                    <li class="collection-item">Alvin</li>
-                    <li class="collection-item">Alvin</li>
-                </ul>
-            </div>
-
-            <div class=" col s12 l8 push-l1">
-                <table class="striped white responsive-table">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Item Name</th>
-                            <th>Item Price</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>Alvin</td>
-                            <td>Eclair</td>
-                            <td>$0.87</td>
-                        </tr>
-                        <tr>
-                            <td>Alan</td>
-                            <td>Jellybean</td>
-                            <td>$3.76</td>
-                        </tr>
-                        <tr>
-                            <td>Jonathan</td>
-                            <td>Lollipop</td>
-                            <td>$7.00</td>
-                        </tr>
-                    </tbody>
-                </table>
+    
+        <div class="container main_2">
+            <div class="row">
+                <div class="col s12 l3">
+                    <ul class="collection with-header">
+                        <li class="collection-header red valign-wrapper">
+                            <i class="material-icons dash_icon white-text">settings</i>
+                            <span class="dash white-text">
+                                <a href="/dashboard/dashboard.html" class="white-text">Dashboard</a>
+                            </span>
+                        </li>
+                        <li class="collection-item valign-wrapper">
+                            <i class="material-icons add">add</i> Add Startup</li>
+                        <li class="collection-item valign-wrapper">
+                            <i class="material-icons list">list_alt</i> Startup Detail</li>
+                    </ul>
+                </div>
+    
+                <div class=" col s12 m12 l8 push-l1">
+                    <div class="card">
+                        <div class="card-title valign-wrapper red white-text">All Startups</div>
+                        <form action="">
+                            <input class="input-field" type="text" type="search" placeholder="Filter Startups">
+                        </form>
+                        <table class="striped white responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>Comapny</th>
+                                    <th>Market/Industry</th>
+                                    <th>Loation</th>
+                                    <th>Joined</th>
+                                    <th>Approve</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+    
+                            <tbody>
+                                <tr>
+                                    <td class="valign-wrapper"><img src="/dashboard/media/placeholder.png" alt="CN" class="responsive-img"> <span class="hide-on-med-and-down cn"> Company Name</span></td>
+                                    <td>Real Estate</td>
+                                    <td>Lagos</td>
+                                    <td>Dec 16, 2018</td>
+                                    <td class="center-align"> <i class="material-icons green white-text checkmark ">check</i> </td>
+                                    <td> <i class="material-icons blue white-text">create</i> <i class="material-icons red white-text">remove</i> </td>
+                                </tr>
+                                <tr>
+                                    <td class="valign-wrapper"><img src="/dashboard/media/placeholder.png" alt="CN" class="responsive-img">  <span class="hide-on-med-and-down cn"> Company Name</span></td>
+                                    <td>Local Business</td>
+                                    <td>Accra</td>
+                                    <td>Dec 16, 2018</td>
+                                    <td class="center-align"><i class="material-icons green white-text checkmark ">check</i></td>
+                                    <td><i class="material-icons blue white-text">create</i> <i class="material-icons red white-text">remove</i> </td>
+                                </tr>
+                                <tr>
+                                    <td class="valign-wrapper"><img src="/dashboard/media/placeholder.png" alt="CN" class="responsive-img">  <span class="hide-on-med-and-down cn"> Company Name</span></td>
+                                    <td>Specialty Food</td>
+                                    <td>Texas</td>
+                                    <td>Dec 16, 2018</td>
+                                    <td class="center-align"><i class="material-icons green white-text checkmark ">check</i></td>
+                                    <td><i class="material-icons blue white-text">create</i> <i class="material-icons red white-text">remove</i> </td>
+                                </tr>
+                                <tr>
+                                    <td class="valign-wrapper"><img src="/dashboard/media/placeholder.png" alt="CN" class="responsive-img">  <span class="hide-on-med-and-down cn"> Company Name</span></td>
+                                    <td>E-commerce</td>
+                                    <td>Nairobi</td>
+                                    <td>Dec 16, 2018</td>
+                                    <td class="center-align"><i class="material-icons green white-text checkmark ">check</i></td>
+                                    <td><i class="material-icons blue white-text">create</i> <i class="material-icons red white-text">remove</i> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    
+    
+    
+    
+        <!-- /main -->
+    </main>
 
 
-
-
-    <!-- /main -->
-
+    <!-- footer -->
+        <div class="page-footer grey darken-3">
+            <div class="container">
+                <div class="center-align">
+                    Copyright KawoLegal, &copy; 2018
+                </div>
+            </div>
+        </div>
+    <!-- /footer -->
 
 
 
